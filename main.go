@@ -18,5 +18,6 @@ func count(r io.Reader) int {
 	for scanner.Scan() {
 		wc++
 	}
+	wc++
 	return wc
 }
